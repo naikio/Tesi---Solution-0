@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-BGD_Subtraction", "1-BGD_Subtraction\1-BGD_Subtraction.vcxproj", "{018C05A7-AF8C-41D0-BB39-896DAD2CD16F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-BGD_Subtraction_w_Kinect", "2-BGD_Subtraction_w_Kinect\2-BGD_Subtraction_w_Kinect.vcxproj", "{EABFE2B0-73AB-4480-9E9B-87BAEA24AF5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-My First PCL Test", "3-My First PCL Test\3-My First PCL Test.vcxproj", "{0FA93C29-F56F-402D-87C7-DFE7C30CBA73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-Draw PC from Kinect (w Grabber)", "4-Draw PC from Kinect (w Grabber)\4-Draw PC from Kinect (w Grabber).vcxproj", "{3A1681EA-4CF1-4F54-9D5E-5C2079D5C2CD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-Draw PC from MOG", "5-Draw PC from MOG\5-Draw PC from MOG.vcxproj", "{AB69C54B-8A4B-44E7-A4DB-5FEED287B5B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-Draw PointCloud in PCLVisualizer", "6-Draw PointCloud in PCLVisualizer\6-Draw PointCloud in PCLVisualizer.vcxproj", "{6618BF9A-1659-4869-93FC-300DDA94AB00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-Merge Kinect with Floor Data", "7-Merge Kinect with Floor Data\7-Merge Kinect with Floor Data.vcxproj", "{48612957-DB89-45C1-AD66-964E29998A8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8-Center of Mass Point and Tracking", "8-Center of Mass Point and Tracking\8-Center of Mass Point and Tracking.vcxproj", "{351AFBD7-92C2-472A-BD38-ABE77ACCA71E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9-Tracking MultiFrame", "9-Tracking MultiFrame\9-Tracking MultiFrame.vcxproj", "{A1F2A2EE-B952-40A2-8F25-E4BA334F1222}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10-MoreComplexTracking - State+Hungarian Algorithm", "10-MoreComplexTracking - State+Hungarian Algorithm\10-MoreComplexTracking - State+Hungarian Algorithm.vcxproj", "{EBC16C55-8A21-4F85-838D-38F60E93CB2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018C05A7-AF8C-41D0-BB39-896DAD2CD16F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{018C05A7-AF8C-41D0-BB39-896DAD2CD16F}.Debug|Win32.Build.0 = Debug|Win32
+		{018C05A7-AF8C-41D0-BB39-896DAD2CD16F}.Release|Win32.ActiveCfg = Release|Win32
+		{018C05A7-AF8C-41D0-BB39-896DAD2CD16F}.Release|Win32.Build.0 = Release|Win32
+		{EABFE2B0-73AB-4480-9E9B-87BAEA24AF5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EABFE2B0-73AB-4480-9E9B-87BAEA24AF5E}.Debug|Win32.Build.0 = Debug|Win32
+		{EABFE2B0-73AB-4480-9E9B-87BAEA24AF5E}.Release|Win32.ActiveCfg = Release|Win32
+		{EABFE2B0-73AB-4480-9E9B-87BAEA24AF5E}.Release|Win32.Build.0 = Release|Win32
+		{0FA93C29-F56F-402D-87C7-DFE7C30CBA73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FA93C29-F56F-402D-87C7-DFE7C30CBA73}.Debug|Win32.Build.0 = Debug|Win32
+		{0FA93C29-F56F-402D-87C7-DFE7C30CBA73}.Release|Win32.ActiveCfg = Release|Win32
+		{0FA93C29-F56F-402D-87C7-DFE7C30CBA73}.Release|Win32.Build.0 = Release|Win32
+		{3A1681EA-4CF1-4F54-9D5E-5C2079D5C2CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A1681EA-4CF1-4F54-9D5E-5C2079D5C2CD}.Debug|Win32.Build.0 = Debug|Win32
+		{3A1681EA-4CF1-4F54-9D5E-5C2079D5C2CD}.Release|Win32.ActiveCfg = Release|Win32
+		{3A1681EA-4CF1-4F54-9D5E-5C2079D5C2CD}.Release|Win32.Build.0 = Release|Win32
+		{AB69C54B-8A4B-44E7-A4DB-5FEED287B5B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB69C54B-8A4B-44E7-A4DB-5FEED287B5B0}.Debug|Win32.Build.0 = Debug|Win32
+		{AB69C54B-8A4B-44E7-A4DB-5FEED287B5B0}.Release|Win32.ActiveCfg = Release|Win32
+		{AB69C54B-8A4B-44E7-A4DB-5FEED287B5B0}.Release|Win32.Build.0 = Release|Win32
+		{6618BF9A-1659-4869-93FC-300DDA94AB00}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6618BF9A-1659-4869-93FC-300DDA94AB00}.Debug|Win32.Build.0 = Debug|Win32
+		{6618BF9A-1659-4869-93FC-300DDA94AB00}.Release|Win32.ActiveCfg = Release|Win32
+		{6618BF9A-1659-4869-93FC-300DDA94AB00}.Release|Win32.Build.0 = Release|Win32
+		{48612957-DB89-45C1-AD66-964E29998A8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48612957-DB89-45C1-AD66-964E29998A8F}.Debug|Win32.Build.0 = Debug|Win32
+		{48612957-DB89-45C1-AD66-964E29998A8F}.Release|Win32.ActiveCfg = Release|Win32
+		{48612957-DB89-45C1-AD66-964E29998A8F}.Release|Win32.Build.0 = Release|Win32
+		{351AFBD7-92C2-472A-BD38-ABE77ACCA71E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{351AFBD7-92C2-472A-BD38-ABE77ACCA71E}.Debug|Win32.Build.0 = Debug|Win32
+		{351AFBD7-92C2-472A-BD38-ABE77ACCA71E}.Release|Win32.ActiveCfg = Release|Win32
+		{351AFBD7-92C2-472A-BD38-ABE77ACCA71E}.Release|Win32.Build.0 = Release|Win32
+		{A1F2A2EE-B952-40A2-8F25-E4BA334F1222}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1F2A2EE-B952-40A2-8F25-E4BA334F1222}.Debug|Win32.Build.0 = Debug|Win32
+		{A1F2A2EE-B952-40A2-8F25-E4BA334F1222}.Release|Win32.ActiveCfg = Release|Win32
+		{A1F2A2EE-B952-40A2-8F25-E4BA334F1222}.Release|Win32.Build.0 = Release|Win32
+		{EBC16C55-8A21-4F85-838D-38F60E93CB2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBC16C55-8A21-4F85-838D-38F60E93CB2D}.Debug|Win32.Build.0 = Debug|Win32
+		{EBC16C55-8A21-4F85-838D-38F60E93CB2D}.Release|Win32.ActiveCfg = Release|Win32
+		{EBC16C55-8A21-4F85-838D-38F60E93CB2D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
